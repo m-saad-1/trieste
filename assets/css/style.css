@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .greeting {
     font-size: 0.95rem;
-    color: #666;
+    color: #E0E0E0;
     font-weight: 500;
 }
 
@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-subtitle {
     font-size: 1.15rem;
-    color: #555;
+    color: #E0E0E0;
     margin-bottom: 2.5rem;
     max-width: 90%;
 }
@@ -541,7 +541,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header p {
-    color: #555;
+    color: #E0E0E0;
     font-size: 1.1rem;
 }
 
@@ -707,14 +707,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rating .reviews {
-    color: #888;
+    color: #E0E0E0;
     font-size: 0.8rem;
     font-weight: 400;
     margin-left: 4px;
 }
 
 .card-desc {
-    color: #666;
+    color: #E0E0E0;
     font-size: 0.95rem;
     line-height: 1.4rem;
     margin-bottom: 1.5rem;
@@ -814,7 +814,7 @@ h1, h2, h3, h4, h5, h6 {
 .promo-price {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #666666;
+    color: #E0E0E0;
 }
 
 .promo-price span {
@@ -827,7 +827,7 @@ h1, h2, h3, h4, h5, h6 {
 .promo-desc {
     font-size: 1.1rem;
     margin-bottom: 2.5rem;
-    color: #555555;
+    color: #E0E0E0;
 }
 
 /* About Section */
@@ -857,7 +857,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-text p {
-    color: #555;
+    color: #E0E0E0;
     font-size: 1.1rem;
     line-height: 1.8;
 }
@@ -911,7 +911,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact Section */
 .contact-section {
     padding: 6rem 0;
-    background-color: var(--clr-surface);
+    background-color: var(--clr-background);
 }
 
 .contact-info-cards {
@@ -999,7 +999,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-card-info p {
-    color: #666;
+    color: #E0E0E0;
     font-size: 0.95rem;
 }
 
@@ -1321,7 +1321,7 @@ input:focus, textarea:focus {
 .mobile-search-bar {
     display: none;
     padding: 1.5rem 16px 1rem; /* Added top padding to clear the logo */
-    background: transparent;
+    background: var(--clr-background);
     border-bottom: none;
 }
 
@@ -1396,7 +1396,7 @@ input:focus, textarea:focus {
 
 .cart-count {
     font-size: 0.75rem;
-    color: #777777;
+    color: #E0E0E0;
 }
 
 .cart-total {
@@ -1560,7 +1560,7 @@ input:focus, textarea:focus {
 .res-info-card ul {
     list-style: none;
     padding: 0;
-    color: #555;
+    color: #E0E0E0;
     line-height: 1.8;
 }
 
@@ -1574,7 +1574,7 @@ input:focus, textarea:focus {
 }
 
 .location-details {
-    color: #666;
+    color: #E0E0E0;
     margin-bottom: 1.5rem;
     font-size: 0.95rem;
     line-height: 1.6;
@@ -1695,7 +1695,7 @@ input:focus, textarea:focus {
     align-items: center;
     justify-content: center;
     padding: 3rem 1.5rem;
-    color: #888;
+    color: #E0E0E0;
 }
 
 /* Lightbox */
@@ -1900,7 +1900,7 @@ input:focus, textarea:focus {
     margin-bottom: 0.3rem;
 }
 .order-time {
-    color: #666;
+    color: #E0E0E0;
     font-size: 0.95rem;
 }
 .order-price {
@@ -1911,7 +1911,7 @@ input:focus, textarea:focus {
     display: block;
 }
 .order-items {
-    color: #555;
+    color: #E0E0E0;
     font-size: 1.05rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -1946,7 +1946,7 @@ input:focus, textarea:focus {
     display: flex;
     justify-content: space-between;
     font-size: 0.85rem;
-    color: #888;
+    color: #E0E0E0;
     font-weight: 600;
 }
 .order-progress-steps .active {
@@ -2008,7 +2008,7 @@ input:focus, textarea:focus {
     gap: 1rem;
 }
 .cart-remove-btn {
-    color: #888888;
+    color: #E0E0E0;
     background: none;
     border: none;
     cursor: pointer;
@@ -2177,7 +2177,7 @@ input:focus, textarea:focus {
 .chatbot-input {
     display: flex;
     padding: 1rem;
-    background: var(--clr-surface);
+    background: #1A1A1A;
     border-top: 1px solid #eee;
 }
 .chatbot-input input {
@@ -2311,4 +2311,11 @@ input:focus, textarea:focus {
         gap: 3rem;
         align-items: start;
     }
+}
+
+
+/* Form Fields Fixes */
+input, textarea, select {
+    background-color: #1A1A1A !important;
+    color: white !important;
 }

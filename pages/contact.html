@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Cafe Trieste</title>
-    <link rel="icon" type="image/png" href="../assets/images/logo.avif">
+    <link rel="icon" type="image/png" href="../assets/images/Logo.avif">
     <meta name="description" content="Entre em contato conosco. Tire suas dúvidas, envie sugestões ou saiba como chegar.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
         <div class="container">
             <div class="nav-left">
                 <a href="../index.html" class="logo">
-                    <img fetchpriority="high" decoding="sync" src="../assets/images/logo.avif" alt="Cafe Trieste Logo" class="header-logo">
+                    <img fetchpriority="high" decoding="sync" src="../assets/images/Logo.avif" alt="Cafe Trieste Logo" class="header-logo">
                     </a>
                 <span class="greeting">Olá, seja bem-vindo! 👋</span>
             </div>
@@ -68,9 +68,9 @@
                 </div>
                 
                 <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 4rem; align-items: start;">
-                    <div class="contact-info-col" style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                    <div class="contact-info-col" style="background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
                         <h3 style="color: var(--clr-primary); margin-bottom: 1.5rem;">Informações de Contato</h3>
-                        <ul style="list-style: none; padding: 0; margin-bottom: 2.5rem; color: #555; line-height: 1.6;">
+                        <ul style="list-style: none; padding: 0; margin-bottom: 2.5rem; color: #B0B0B0; line-height: 1.6;">
                             <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
                                 <span style="font-size: 1.5rem;">📍</span>
                                 <div>
@@ -95,7 +95,7 @@
                         </ul>
                         
                         <h3 id="horarios" style="color: var(--clr-primary); margin-bottom: 1rem;">Horário de Funcionamento</h3>
-                        <ul style="list-style: none; padding: 0; margin-bottom: 2.5rem; color: #555;">
+                        <ul style="list-style: none; padding: 0; margin-bottom: 2.5rem; color: #B0B0B0;">
                             <li style="margin-bottom: 0.5rem;"><strong>Seg - Sex:</strong> 11h30 às 15h00 | 18h30 às 23h00</li>
                             <li style="margin-bottom: 0.5rem;"><strong>Sáb - Dom:</strong> 11h30 às 23h30</li>
                         </ul>
@@ -108,19 +108,19 @@
                     </div>
                     
                     <div class="contact-form-col">
-                        <form class="contact-form" style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);" id="contactForm">
+                        <form class="contact-form" style="background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" id="contactForm">
                             <h3 style="margin-bottom: 1.5rem; color: var(--clr-text-primary);">Envie uma Mensagem</h3>
                             <div class="form-group" style="margin-bottom: 1.2rem;">
                                 <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: #444;">Nome</label>
-                                <input type="text" placeholder="Seu nome" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;">
+                                <input type="text" placeholder="Seu nome" required style="width: 100%; padding: 0.8rem; border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 8px;">
                             </div>
                             <div class="form-group" style="margin-bottom: 1.2rem;">
                                 <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: #444;">Email</label>
-                                <input type="email" placeholder="seu@email.com" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;">
+                                <input type="email" placeholder="seu@email.com" required style="width: 100%; padding: 0.8rem; border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 8px;">
                             </div>
                             <div class="form-group" style="margin-bottom: 1.2rem;">
                                 <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: #444;">Assunto</label>
-                                <select required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px; background: white;">
+                                <select required style="width: 100%; padding: 0.8rem; border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 8px; background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15);">
                                     <option value="">Selecione o assunto...</option>
                                     <option>Dúvida</option>
                                     <option>Sugestão</option>
@@ -131,14 +131,14 @@
                             </div>
                             <div class="form-group" style="margin-bottom: 1.5rem;">
                                 <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: #444;">Mensagem</label>
-                                <textarea rows="5" placeholder="Como podemos ajudar?" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 8px;"></textarea>
+                                <textarea rows="5" placeholder="Como podemos ajudar?" required style="width: 100%; padding: 0.8rem; border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 8px;"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: 50px;">Enviar Mensagem</button>
                         </form>
                     </div>
                 </div>
 
-                <div id="localizacao" style="margin-top: 4rem; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                <div id="localizacao" style="margin-top: 4rem; background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
                     <h3 style="color: var(--clr-primary); margin-bottom: 1.5rem; text-align: center;">Como Chegar</h3>
                     <div class="map-placeholder" style="height: 350px; background: #eee; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7629532559567!2d-46.69741548502187!3d-23.60155098466657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57476839d0f3%3A0xc3b8a6d4999f7d08!2sAv.%20das%20Na%C3%A7%C3%B5es%20Unidas%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -148,11 +148,11 @@
                 <div style="margin-top: 4rem; text-align: center;">
                     <h3 style="color: var(--clr-primary); margin-bottom: 2rem;">Perguntas Frequentes</h3>
                     <div style="max-width: 800px; margin: 0 auto; text-align: left;">
-                        <div style="background: white; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                        <div style="background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 5px 15px rgba(0,0,0,0.4);">
                             <strong style="color: var(--clr-text-primary); display: block; margin-bottom: 0.5rem;">Vocês aceitam vale-refeição?</strong>
                             <p style="color: #666; font-size: 0.95rem;">Sim, aceitamos Alelo, Ticket, Sodexo e VR Refeição.</p>
                         </div>
-                        <div style="background: white; padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                        <div style="background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 5px 15px rgba(0,0,0,0.4);">
                             <strong style="color: var(--clr-text-primary); display: block; margin-bottom: 0.5rem;">O restaurante possui espaço kids?</strong>
                             <p style="color: #666; font-size: 0.95rem;">Sim, temos uma área recreativa com monitores aos finais de semana.</p>
                         </div>
@@ -166,7 +166,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="../index.html" class="logo" style="color: white; font-size: 2rem; display: flex; align-items: center; gap: 0.5rem;"><img fetchpriority="high" decoding="sync" src="../assets/images/logo.avif" alt="Logo" style="height: 80px; width: auto;">Cafe Trieste<span style="color: var(--clr-primary);">.</span></a>
+                    <a href="../index.html" class="logo" style="color: white; font-size: 2rem; display: flex; align-items: center; gap: 0.5rem;"><img fetchpriority="high" decoding="sync" src="../assets/images/Logo.avif" alt="Logo" style="height: 80px; width: auto;">Cafe Trieste<span style="color: var(--clr-primary);">.</span></a>
                     <p>Restaurante por quilo no almoço e Petiscaria à noite. O ponto de encontro perfeito no Alto da Serra.</p>
                 </div>
                 <div class="footer-links">
@@ -232,7 +232,7 @@
 
     <!-- Contact Modal -->
     <div id="contactModal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
-        <div style="background: white; padding: 3rem; border-radius: 16px; max-width: 400px; text-align: center;">
+        <div style="background: var(--clr-surface); border: 1px solid rgba(212, 175, 55, 0.15); padding: 3rem; border-radius: 16px; max-width: 400px; text-align: center;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">✅</div>
             <h3 style="color: var(--clr-primary); margin-bottom: 1rem;">Mensagem Enviada!</h3>
             <p style="color: #666; margin-bottom: 2rem;">Agradecemos seu contato. Responderemos em breve.</p>

@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "name": "Deals",
+      "items": [
+        { "name": "Single Saver Deal", "price": 999, "image": "assets/images/Deal (1).avif", "description": "A perfect meal for one, featuring a fulfilling main course and a refreshing side. Great for a quick and satisfying lunch." },
+        { "name": "Couple's Retreat Deal", "price": 1499, "image": "assets/images/Deal (2).avif", "description": "Share a beautiful moment with your loved one with two curated main courses. Accompanied by sides to complete the experience." },
+        { "name": "Family Feast Deal", "price": 1999, "image": "assets/images/Deal (3).avif", "description": "A generous serving of our finest dishes, enough to satisfy the whole family. Includes a variety of flavors for everyone to enjoy." },
+        { "name": "Ultimate Party Platter", "price": 2499, "image": "assets/images/Deal (4).avif", "description": "Bring the party to your table with this massive platter of our best-selling items. Perfect for sharing with a group of friends." },
+        { "name": "Premium Steak Combo", "price": 2999, "image": "assets/images/Deal (5).avif", "description": "Indulge in our premium cuts of steak served with rich, creamy sides. An absolute treat for true meat lovers." },
+        { "name": "Weekend Special Deal", "price": 3499, "image": "assets/images/Deal (6).avif", "description": "Celebrate the weekend with an extravagant spread of our chef's specials. A culinary journey you won't forget." },
+        { "name": "Trieste Mega Deal", "price": 3999, "image": "assets/images/deal7.avif", "description": "The ultimate dining experience featuring everything you could crave from our kitchen. A monumental feast for a grand celebration." }
+      ]
+    },
+    {
+      "name": "Steaks",
+      "items": [
+        { "name": "American Steak", "price": 1899, "image": "assets/images/american_steak.avif", "description": "A classic American-style steak grilled to perfection with smoky barbecue flavors. Served with crispy fries and fresh veggies." },
+        { "name": "Deck Steak", "price": 1899, "image": "assets/images/deck_steak.avif", "description": "Our signature Deck Steak loaded with a special blend of savory spices. Paired with a creamy sauce for the ultimate taste." },
+        { "name": "Italian Steak", "price": 1899, "image": "assets/images/italian_steak.avif", "description": "Topped with fresh mozzarella, basil, and a rich tomato-based marinara sauce. Brings the authentic taste of Italy to your plate." },
+        { "name": "Mexican Steak", "price": 1899, "image": "assets/images/mexican_steak.avif", "description": "A spicy and tangy delight topped with jalapeños, salsa, and melted cheddar. Perfect for those who crave a fiery kick." },
+        { "name": "Mushroom Steak", "price": 1899, "image": "assets/images/mushroom_steak.avif", "description": "Tender steak smothered in a luxurious, creamy mushroom sauce. A comforting and rich dish that melts in your mouth." },
+        { "name": "Polo Tuscany Steak", "price": 1899, "image": "assets/images/polo_tuscany_steak.avif", "description": "Inspired by the rustic flavors of Tuscany with a blend of Mediterranean herbs. A light yet flavorful steak experience." },
+        { "name": "Trieste Smoke Fire Steak", "price": 1899, "image": "assets/images/trieste_smoke_fire_steak.avif", "description": "Infused with intense smoky flavors and a signature fiery glaze. A bold choice for adventurous steak enthusiasts." },
+        { "name": "Twin Steak", "price": 1899, "image": "assets/images/twin_steak.avif", "description": "Enjoy the best of both worlds with two distinct flavorful sauces on one plate. A delightful combination of sweet and savory." }
+      ]
+    },
+    {
+      "name": "Pastas",
+      "items": [
+        { "name": "Fettuccine Alfredo", "price": 1575, "image": "assets/images/pasta1.avif", "description": "Classic fettuccine tossed in a rich, velvety parmesan and cream sauce. Finished with a sprinkle of fresh parsley and black pepper." },
+        { "name": "Italian Chicken Pasta", "price": 1599, "image": "assets/images/Pasta.avif", "description": "Hearty pasta mixed with tender chicken chunks in an authentic Italian herb sauce. A fulfilling and traditional favorite." },
+        { "name": "Creamy Mushroom Pasta", "price": 1499, "image": "assets/images/Pasta2.avif", "description": "Penne pasta bathed in a decadent, earthy mushroom and garlic cream sauce. The perfect comfort food for any time of the day." },
+        { "name": "Bang Bang Shrimp Pasta", "price": 1699, "image": "assets/images/Pasta3.avif", "description": "Spicy and sweet Bang Bang shrimp served over a bed of al dente pasta. A unique fusion of bold seafood flavors and creamy texture." }
+      ]
+    },
+    {
+      "name": "Burgers & Chicken",
+      "items": [
+        { "name": "Trieste Special Burger", "price": 1099, "image": "assets/images/burger.avif", "description": "Our signature juicy patty loaded with premium cheese, fresh lettuce, and house sauce. Stacked between soft, toasted artisanal buns." },
+        { "name": "Fried Royal Chicken", "price": 1099, "image": "assets/images/Chiken.avif", "description": "Crispy on the outside, incredibly tender and juicy on the inside. Served with a side of our special tangy dipping sauce." }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        { "name": "Chocolate Molten Lava Cake", "price": 850, "image": "assets/images/molten_lava_cake.avif", "description": "A warm, rich chocolate cake with a gooey, molten center that flows out perfectly. Served with a scoop of premium vanilla ice cream." },
+        { "name": "Chocolate Fudge Cake", "price": 799, "image": "assets/images/Cake.avif", "description": "Layers of moist chocolate sponge generously frosted with thick, decadent chocolate fudge. A dream come true for chocolate lovers." },
+        { "name": "Trieste Special Dessert", "price": 1099, "image": "assets/images/Dessert.avif", "description": "Our chef's exclusive sweet creation, featuring a harmonious blend of seasonal flavors. A beautifully presented finale to your meal." }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        { "name": "Refreshing Drink", "price": 599, "image": "assets/images/Drink.avif", "description": "A crisp, ice-cold beverage designed to quench your thirst instantly. The perfect complement to any of our hearty meals." },
+        { "name": "Specialty Beverage", "price": 649, "image": "assets/images/Drink2.avif", "description": "A hand-crafted specialty drink featuring unique flavors and premium ingredients. Sip and relax with this delightful refreshment." }
+      ]
+    }
+  ]
+}

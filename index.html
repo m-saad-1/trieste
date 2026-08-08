@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HDM Gourmet - O Verdadeiro Sabor do Brasil</title>
-    <link rel="icon" type="image/png" href="./assets/images/Logo.avif">
+    <title>Cafe Trieste - O Verdadeiro Sabor do Brasil</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.avif">
     <meta name="description" content="Comida de verdade no almoço por quilo e a melhor petiscaria à noite no Alto da Serra. O lugar perfeito para comer bem e reunir os amigos.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preload" as="image" href="./assets/images/Hero.avif">
+    <link rel="preload" as="image" href="./assets/images/hero.avif">
 </head>
 <body>
     <header class="navbar">
         <div class="container">
             <div class="nav-left">
                 <a href="#" class="logo">
-                    <img fetchpriority="high" decoding="sync" src="./assets/images/Logo.avif" alt="HDM Gourmet Logo" class="header-logo">
+                    <img fetchpriority="high" decoding="sync" src="./assets/images/logo.avif" alt="Cafe Trieste Logo" class="header-logo">
                     </a>
                 <span class="greeting">Olá, seja bem-vindo! 👋</span>
             </div>
@@ -89,7 +89,7 @@
         <!-- Hero Section -->
         <section class="hero refined-hero" id="home">
             <div class="hero-image-frame">
-                <img fetchpriority="high" decoding="sync" src="./assets/images/Hero.avif" alt="HDM Gourmet Hero" class="hero-full-img">
+                <img fetchpriority="high" decoding="sync" src="./assets/images/hero.avif" alt="Cafe Trieste Hero" class="hero-full-img">
                 <a href="#cardapio" class="btn btn-primary hero-order-btn">Peça Agora</a>
             </div>
         </section>
@@ -101,285 +101,403 @@
             <div class="container">
                 <!-- Circular Category Strip -->
                 <div class="category-circles-wrapper">
-                    <a href="#deals" class="category-circle-btn active" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Deal.avif" alt="Ofertas"></div>
-                        <span class="circle-label">Ofertas</span>
-                    </a>
-                    <a href="#chicken" class="category-circle-btn" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Chicken.avif" alt="Frango e Batatas"></div>
-                        <span class="circle-label">Frango/Batata</span>
-                    </a>
-                    <a href="#skewers" class="category-circle-btn" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Grilled_skewers (1).avif" alt="Espetinhos"></div>
-                        <span class="circle-label">Espetinhos</span>
-                    </a>
-                    <a href="#soups" class="category-circle-btn" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Soup.avif" alt="Sopas"></div>
-                        <span class="circle-label">Sopas</span>
-                    </a>
-                    <a href="#drinks" class="category-circle-btn" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Drink (1).avif" alt="Bebidas"></div>
-                        <span class="circle-label">Bebidas</span>
-                    </a>
-                    <a href="#desserts" class="category-circle-btn" style="text-decoration:none;">
-                        <div class="circle-img"><img loading="lazy" decoding="async" src="./assets/images/Dessert.avif" alt="Sobremesas"></div>
-                        <span class="circle-label">Sobremesas</span>
-                    </a>
-                </div>
-                
-                <!-- Category: Ofertas -->
-                <div id="deals" style="display: flex; justify-content: space-between; align-items: center; margin: 0.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Ofertas</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-badge badge-primary">MAIS VENDIDO</div>
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal (1).avif" alt="Combo 1"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Porção Especial HDM Gourmet</h3></div>
-                            <p class="card-desc">Nossas porções irresistíveis para dividir com os amigos..</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 45,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-badge badge-danger">OFERTA</div>
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal (2).avif" alt="Combo 2"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Petisco Especial</h3></div>
-                            <p class="card-desc">Ideal para compartilhar. Tudo em dobro.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 89,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal (3).avif" alt="Combo 3"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Batata Especial</h3></div>
-                            <p class="card-desc">Uma explosão de sabor para a família toda aproveitar unida.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 119,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-badge badge-primary">NOVO</div>
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal (4).avif" alt="Combo 4"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Tábua de Frios</h3></div>
-                            <p class="card-desc">O maior combo da casa com acompanhamentos especiais.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 65,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal.avif" alt="Combo 5"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Trio Parada Dura</h3></div>
-                            <p class="card-desc">Três delícias diferentes em uma única embalagem especial.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 78,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Deal (1).avif" alt="Combo 6"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Combo Casal</h3></div>
-                            <p class="card-desc">Perfeito para dividir com quem você ama.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 55,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <a href="#deals" class="category-circle-btn active" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Deals</span>
+    </a>
+    <a href="#steaks" class="category-circle-btn" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Steaks</span>
+    </a>
+    <a href="#pastas" class="category-circle-btn" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Pastas</span>
+    </a>
+    <a href="#burgers-and-chicken" class="category-circle-btn" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Burgers & Chicken</span>
+    </a>
+    <a href="#desserts" class="category-circle-btn" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Desserts</span>
+    </a>
+    <a href="#beverages" class="category-circle-btn" style="text-decoration:none;">
+        <span class="circle-label" style="padding: 10px;">Beverages</span>
+    </a>
+</div>
 
-                <!-- Category: Frango e Batatas -->
-                <div id="chicken" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Frango e Batatas</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Chicken.avif" alt="Frango 1"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Frango Especial</h3></div>
-                            <p class="card-desc">Delicioso frango preparado com o nosso tempero especial.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 35,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Chicken2.avif" alt="Frango 2"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Frango Crocante</h3></div>
-                            <p class="card-desc">Frango extra crocante, perfeito para acompanhar com molhos.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 39,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Chicken3.avif" alt="Frango 3"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Porção de Frango</h3></div>
-                            <p class="card-desc">Porção generosa de frango para compartilhar com a família.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 45,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Chips.avif" alt="Batatas Fritas"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Batatas Fritas</h3></div>
-                            <p class="card-desc">Porção de batatas fritas crocantes e quentinhas.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 25,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="deals" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Deals</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (1).avif" alt="Single Saver Deal" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Single Saver Deal</h3></div>
+            <p class="card-desc">A perfect meal for one, featuring a fulfilling main course and a refreshing side. Great for a quick and satisfying lunch.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 999</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (2).avif" alt="Couple's Retreat Deal" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Couple's Retreat Deal</h3></div>
+            <p class="card-desc">Share a beautiful moment with your loved one with two curated main courses. Accompanied by sides to complete the experience.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1499</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (3).avif" alt="Family Feast Deal" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Family Feast Deal</h3></div>
+            <p class="card-desc">A generous serving of our finest dishes, enough to satisfy the whole family. Includes a variety of flavors for everyone to enjoy.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1999</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (4).avif" alt="Ultimate Party Platter" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Ultimate Party Platter</h3></div>
+            <p class="card-desc">Bring the party to your table with this massive platter of our best-selling items. Perfect for sharing with a group of friends.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 2499</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (5).avif" alt="Premium Steak Combo" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Premium Steak Combo</h3></div>
+            <p class="card-desc">Indulge in our premium cuts of steak served with rich, creamy sides. An absolute treat for true meat lovers.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 2999</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Deal (6).avif" alt="Weekend Special Deal" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Weekend Special Deal</h3></div>
+            <p class="card-desc">Celebrate the weekend with an extravagant spread of our chef's specials. A culinary journey you won't forget.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 3499</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/deal7.avif" alt="Trieste Mega Deal" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Trieste Mega Deal</h3></div>
+            <p class="card-desc">The ultimate dining experience featuring everything you could crave from our kitchen. A monumental feast for a grand celebration.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 3999</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <!-- Category: Espetinhos -->
-                <div id="skewers" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Espetinhos</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Grilled_skewers (1).avif" alt="Espetinho 1"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Feijoada Especial</h3></div>
-                            <p class="card-desc">Sextou com a nossa feijoada completa! Servida das 11h às 16h..</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 15,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Grilled_skewers (2).avif" alt="Espetinho 2"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Espetinho de Frango</h3></div>
-                            <p class="card-desc">Espetinho de frango suculento com tempero da casa.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 12,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="steaks" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Steaks</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/american_steak.avif" alt="American Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>American Steak</h3></div>
+            <p class="card-desc">A classic American-style steak grilled to perfection with smoky barbecue flavors. Served with crispy fries and fresh veggies.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/deck_steak.avif" alt="Deck Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Deck Steak</h3></div>
+            <p class="card-desc">Our signature Deck Steak loaded with a special blend of savory spices. Paired with a creamy sauce for the ultimate taste.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/italian_steak.avif" alt="Italian Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Italian Steak</h3></div>
+            <p class="card-desc">Topped with fresh mozzarella, basil, and a rich tomato-based marinara sauce. Brings the authentic taste of Italy to your plate.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/mexican_steak.avif" alt="Mexican Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Mexican Steak</h3></div>
+            <p class="card-desc">A spicy and tangy delight topped with jalapeños, salsa, and melted cheddar. Perfect for those who crave a fiery kick.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/mushroom_steak.avif" alt="Mushroom Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Mushroom Steak</h3></div>
+            <p class="card-desc">Tender steak smothered in a luxurious, creamy mushroom sauce. A comforting and rich dish that melts in your mouth.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/polo_tuscany_steak.avif" alt="Polo Tuscany Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Polo Tuscany Steak</h3></div>
+            <p class="card-desc">Inspired by the rustic flavors of Tuscany with a blend of Mediterranean herbs. A light yet flavorful steak experience.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/trieste_smoke_fire_steak.avif" alt="Trieste Smoke Fire Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Trieste Smoke Fire Steak</h3></div>
+            <p class="card-desc">Infused with intense smoky flavors and a signature fiery glaze. A bold choice for adventurous steak enthusiasts.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/twin_steak.avif" alt="Twin Steak" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Twin Steak</h3></div>
+            <p class="card-desc">Enjoy the best of both worlds with two distinct flavorful sauces on one plate. A delightful combination of sweet and savory.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1899</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <!-- Category: Sopas -->
-                <div id="soups" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Sopas</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Soup.avif" alt="Sopa"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Porção da Casa</h3></div>
-                            <p class="card-desc">Comida de verdade, preparada com carinho..</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 25,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="pastas" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Pastas</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/pasta1.avif" alt="Fettuccine Alfredo" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Fettuccine Alfredo</h3></div>
+            <p class="card-desc">Classic fettuccine tossed in a rich, velvety parmesan and cream sauce. Finished with a sprinkle of fresh parsley and black pepper.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1575</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Pasta.avif" alt="Italian Chicken Pasta" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Italian Chicken Pasta</h3></div>
+            <p class="card-desc">Hearty pasta mixed with tender chicken chunks in an authentic Italian herb sauce. A fulfilling and traditional favorite.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1599</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Pasta2.avif" alt="Creamy Mushroom Pasta" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Creamy Mushroom Pasta</h3></div>
+            <p class="card-desc">Penne pasta bathed in a decadent, earthy mushroom and garlic cream sauce. The perfect comfort food for any time of the day.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1499</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Pasta3.avif" alt="Bang Bang Shrimp Pasta" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Bang Bang Shrimp Pasta</h3></div>
+            <p class="card-desc">Spicy and sweet Bang Bang shrimp served over a bed of al dente pasta. A unique fusion of bold seafood flavors and creamy texture.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1699</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <!-- Category: Bebidas -->
-                <div id="drinks" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Bebidas</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Drink (1).avif" alt="Bebida 1"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Suco Natural</h3></div>
-                            <p class="card-desc">Suco natural refrescante e geladinho.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 12,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Drink (2).avif" alt="Bebida 2"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Refrigerante Lata</h3></div>
-                            <p class="card-desc">Sua bebida favorita na medida certa.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 6,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="burgers-and-chicken" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Burgers & Chicken</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/burger.avif" alt="Trieste Special Burger" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Trieste Special Burger</h3></div>
+            <p class="card-desc">Our signature juicy patty loaded with premium cheese, fresh lettuce, and house sauce. Stacked between soft, toasted artisanal buns.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1099</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Chiken.avif" alt="Fried Royal Chicken" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Fried Royal Chicken</h3></div>
+            <p class="card-desc">Crispy on the outside, incredibly tender and juicy on the inside. Served with a side of our special tangy dipping sauce.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1099</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-                <!-- Category: Sobremesas -->
-                <div id="desserts" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
-                    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Sobremesas</h3>
-                </div>
-                <div class="menu-grid">
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Dessert (1).avif" alt="Sobremesa 1"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Pudim Tradicional</h3></div>
-                            <p class="card-desc">O clássico pudim com calda de caramelo.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 14,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Dessert (2).avif" alt="Sobremesa 2"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Torta de Chocolate</h3></div>
-                            <p class="card-desc">Torta cremosa de chocolate para os amantes de cacau.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 18,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Dessert.avif" alt="Sobremesa 3"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Mousse de Maracujá</h3></div>
-                            <p class="card-desc">Mousse refrescante com o toque cítrico perfeito.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 12,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="card-image"><img loading="lazy" decoding="async" src="./assets/images/Dessert (4).avif" alt="Sobremesa 4"></div>
-                        <div class="card-content">
-                            <div class="card-header"><h3>Sorvete da Casa</h3></div>
-                            <p class="card-desc">Sorvete artesanal com coberturas à sua escolha.</p>
-                            <div class="card-footer">
-                                <span class="price">R$ 16,90</span>
-                                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="desserts" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Desserts</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/molten_lava_cake.avif" alt="Chocolate Molten Lava Cake" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Chocolate Molten Lava Cake</h3></div>
+            <p class="card-desc">A warm, rich chocolate cake with a gooey, molten center that flows out perfectly. Served with a scoop of premium vanilla ice cream.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 850</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Cake.avif" alt="Chocolate Fudge Cake" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Chocolate Fudge Cake</h3></div>
+            <p class="card-desc">Layers of moist chocolate sponge generously frosted with thick, decadent chocolate fudge. A dream come true for chocolate lovers.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 799</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Dessert.avif" alt="Trieste Special Dessert" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Trieste Special Dessert</h3></div>
+            <p class="card-desc">Our chef's exclusive sweet creation, featuring a harmonious blend of seasonal flavors. A beautifully presented finale to your meal.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 1099</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="beverages" style="display: flex; justify-content: space-between; align-items: center; margin: 1.5rem 0 1rem; scroll-margin-top: 100px;">
+    <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--clr-text-primary); margin: 0;">Beverages</h3>
+</div>
+<div class="menu-grid">
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Drink.avif" alt="Refreshing Drink" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Refreshing Drink</h3></div>
+            <p class="card-desc">A crisp, ice-cold beverage designed to quench your thirst instantly. The perfect complement to any of our hearty meals.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 599</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="card-image">
+            <img src="assets/images/Drink2.avif" alt="Specialty Beverage" loading="lazy">
+        </div>
+        <div class="card-content" style="padding-top: 1rem;">
+            <div class="card-header"><h3>Specialty Beverage</h3></div>
+            <p class="card-desc">A hand-crafted specialty drink featuring unique flavors and premium ingredients. Sip and relax with this delightful refreshment.</p>
+            <div class="card-footer" style="margin-top: 1rem;">
+                <span class="price">Rs 649</span>
+                <button class="btn btn-primary" style="padding: 0.4rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600;">Adicionar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
                 </div>
                 
                 <div style="text-align: center; margin-top: 3rem;">
@@ -516,7 +634,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="index.html" class="logo" style="color: white; font-size: 2rem; display: flex; align-items: center; gap: 0.5rem;"><img fetchpriority="high" decoding="sync" src="./assets/images/Logo.avif" alt="Logo" style="height: 80px; width: auto;">HDM Gourmet<span style="color: var(--clr-primary);">.</span></a>
+                    <a href="index.html" class="logo" style="color: white; font-size: 2rem; display: flex; align-items: center; gap: 0.5rem;"><img fetchpriority="high" decoding="sync" src="./assets/images/logo.avif" alt="Logo" style="height: 80px; width: auto;">Cafe Trieste<span style="color: var(--clr-primary);">.</span></a>
                     <p>Restaurante por quilo no almoço e Petiscaria à noite. O ponto de encontro perfeito no Alto da Serra.</p>
                 </div>
                 <div class="footer-links">
@@ -538,7 +656,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 HDM Gourmet. Todos os direitos reservados.</p>
+                <p>&copy; 2026 Cafe Trieste. Todos os direitos reservados.</p>
                 <div class="social-links">
                     <a href="#">Instagram</a>
                     <a href="#">Facebook</a>
@@ -598,7 +716,7 @@
                 <div class="chatbot-title">
                     <span class="chatbot-avatar">🤖</span>
                     <div>
-                        <h4>Assistente HDM Gourmet</h4>
+                        <h4>Assistente Cafe Trieste</h4>
                         <span class="online-status">Online agora</span>
                     </div>
                 </div>
@@ -606,7 +724,7 @@
             </div>
             <div class="chatbot-messages">
                 <div class="chat-message bot">
-                    <div class="msg-content">Olá! Bem-vindo ao HDM Gourmet. Como posso ajudar você hoje?</div>
+                    <div class="msg-content">Olá! Bem-vindo ao Cafe Trieste. Como posso ajudar você hoje?</div>
                 </div>
             </div>
             <div class="chatbot-input">

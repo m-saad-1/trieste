@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-logo {
-    height: 140px; /* Large enough to be prominent, small enough to not make header massive */
+    height: 115px;
     width: auto;
     display: block;
     max-width: 100%;
@@ -468,8 +468,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    background-color: var(--clr-surface-dark);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    position: relative;
 }
 
 .hero-img {
@@ -636,8 +637,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Product Card */
 .product-card {
-    background-color: var(--clr-text-on-dark);
+    background-color: var(--clr-surface);
     border-radius: var(--border-radius-lg);
+    border: 1px solid rgba(212, 175, 55, 0.15); /* Elegant gold border */
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     transition: var(--transition);
@@ -1449,11 +1451,16 @@ input:focus, textarea:focus {
     }
     
     .product-card {
-        flex-direction: row;
-        height: 130px;
-        border-radius: 16px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
+    background-color: var(--clr-surface);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid rgba(212, 175, 55, 0.15); /* Elegant gold border */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: var(--transition);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
     
     .card-badge { display: none; }
     

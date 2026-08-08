@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-logo {
-    height: 115px;
+    height: 140px; /* Large enough to be prominent, small enough to not make header massive */
     width: auto;
     display: block;
     max-width: 100%;

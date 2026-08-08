@@ -2232,13 +2232,20 @@ input:focus, textarea:focus {
         display: none !important;
     }
     
-    /* Hide the individual category titles on desktop */
+    /* (Removed code that hid individual category titles on desktop) */
+    
     .menu #deals,
-    .menu #skewers,
-    .menu #soups,
-    .menu #drinks,
-    .menu #desserts {
-        display: none !important;
+    .menu #steaks,
+    .menu #pastas,
+    .menu #burgers-and-chicken,
+    .menu #desserts,
+    .menu #beverages {
+        grid-column: 1 / -1;
+        margin-top: 3rem !important;
+        margin-bottom: 1rem !important;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 
     /* Convert the container into a grid to house all products */
@@ -2324,16 +2331,10 @@ input, textarea, select {
 /* Sticky Tabs Fix */
 .category-circles-wrapper, .category-tabs {
     position: sticky;
-    top: 60px; /* Below the header */
+    top: 70px; /* Directly below the header */
     z-index: 100;
     background: var(--clr-background);
-    padding: 1rem 0;
-    margin-top: -1rem; /* Adjust spacing */
+    padding: 0.5rem 1rem 0.5rem 1.5rem; /* Reduced height, moved right for proper gap */
+    margin-top: 0; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.mobile-search-bar {
-    position: sticky;
-    top: 60px;
-    z-index: 99;
 }

@@ -213,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
     position: relative;
     z-index: 105;
-    transform: translateY(-5px);
 }
 
 .mobile-only-btn-wrapper {
@@ -364,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 .hero {
-    padding: 5rem 0 6rem;
+    padding: 5rem 0 2rem;
     position: relative;
     overflow: hidden;
 }
@@ -766,6 +765,14 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 1rem;
         justify-content: flex-start;
         -webkit-overflow-scrolling: touch;
+    }
+    
+    .category-circles-wrapper {
+        position: sticky;
+        top: 61px;
+        z-index: 98;
+        background-color: var(--clr-background);
+        padding-top: 0.5rem;
     }
     
     .header-logo {
@@ -2213,7 +2220,8 @@ input:focus, textarea:focus {
 
 @media (max-width: 768px) {
     .chatbot-widget {
-        bottom: 140px; /* Above floating cart and mobile tabs */
+        bottom: 80px;
+        transition: bottom 0.3s ease;
         right: 15px;
     }
     .chatbot-container {
@@ -2337,4 +2345,19 @@ input, textarea, select {
     padding: 0.5rem 1rem 0.5rem 1.5rem; /* Reduced height, moved right for proper gap */
     margin-top: 0; 
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* --- Bugfixes for Missing UI Elements --- */
+@media (max-width: 1024px) {
+    .mobile-menu-btn {
+        display: block !important;
+    }
+}
+
+.nav-right .icon-btn {
+    display: flex !important;
+}
+
+.mobile-tab-bar .tab-item {
+    display: flex !important;
 }
